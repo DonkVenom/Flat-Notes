@@ -9,8 +9,7 @@
      | $$      | $$$$$$$$| $$  | $$   | $$
      |__/      |________/|__/  |__/   |__/
  
-
-## FLAT
+__________
 **Flat** is a minimalisic notetaking application.
 It comes without all the unnecessary clutter of conventional note taking apps.
 Just launch the app and enjoy a minimal interface with only the most necessary options.
