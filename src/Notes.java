@@ -35,7 +35,7 @@ public class Notes extends JFrame {
 
 //________________________________________________________________
 
-    final String version = "1.0.0";
+    final String version = "1.1.0";
     final String license = "MIT";
     final String repositoryURL = "https://github.com/DonkVenom/Flat/tree/dev";
     final int copyrightYear = 2023;
@@ -57,6 +57,7 @@ public class Notes extends JFrame {
 
     final Dimension preferredSize = new Dimension(500,400);
     final Dimension minimumSize = new Dimension(200,200);
+    final Insets textPaneMargin = new Insets(10,5,10,0);
 
     File saveFile;
 
@@ -128,9 +129,7 @@ public class Notes extends JFrame {
     }
     void setBold(){
 
-//TODO MIT ITALIC UND FUNKTKONEN EINBAUEN
-//
-  currentTextStyle = Font.BOLD;
+   currentTextStyle = Font.BOLD;
     }
     void setFont(String name){
         textPane.setFont(new Font(name, textPane.getFont().getStyle(), textPane.getFont().getSize()));
@@ -447,7 +446,12 @@ public class Notes extends JFrame {
 
 
 
+        textPane.setMargin(textPaneMargin);
+
         setTitle("Flat");
+
+        comboBoxFonts.setToolTipText("change Font");
+        spinnerFontSize.setToolTipText("change font size");
 
 
 
