@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="FlatNotes:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/FlatNotes_jar</output-path>
+    <root id="archive" name="FlatNotes.jar">
+      <element id="module-output" name="FlatNotes" />
+    </root>
+  </artifact>
+</component>
