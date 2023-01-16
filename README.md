@@ -15,6 +15,7 @@ It comes without all the unnecessary clutter of conventional note taking apps.
 Just launch the app and enjoy a minimal interface with only the most necessary options.
 It even has an additional *ultra minimalistic mode* built  in. 
 
+<img width="913" alt="grafik" src="https://user-images.githubusercontent.com/83369645/212770838-e2879be6-44cc-4420-9295-001b8b4b86e9.png">
 
 <br>
 
